@@ -5,6 +5,6 @@ int func1(int x) {
 }
 
 int main() {
-    int y = func1;
+    int y = func1(10);
     return 0;
 }

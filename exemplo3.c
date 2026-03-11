@@ -8,6 +8,6 @@ void aplicarDesconto(int desconto) {
 
 int main() {
     aplicarDesconto(30);
-    printf("Saldo: %d\n", saldo); // 70 — mas quem mudou o saldo?
+    printf("Saldo: %d\n", saldo);
     return 0;
 }

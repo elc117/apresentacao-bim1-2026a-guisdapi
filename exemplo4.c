@@ -7,6 +7,6 @@ int aplicarDesconto(int saldo, int desconto) {
 int main() {
     int saldo = 100;
     int novoSaldo = aplicarDesconto(saldo, 30);
-    printf("Saldo: %d\n", novoSaldo); // 70 — origem clara e rastreável
+    printf("Saldo: %d\n", novoSaldo); // 70 — origem mais clara e rastreável
     return 0;
 }
